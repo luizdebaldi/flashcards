@@ -3,21 +3,31 @@
 }
 
 .catao {
-margem:1rem 1rem;
+margim:1rem 1rem;
 background-color: bluevioletf;
+height: 20rem ;
+flex-grow: 1;
+flex-basis: calc(33% -6rem);
 }
+
+.cartao__conteudo{
+    text-align: center;
+    height: 100%;
+}
+
 body{
     background-color: rgba(21, 255, 0, 0.486);
     font-family: Noto Sans Japonês;
+    color: beige;
 }
 
 
-footer
-    background-color: aqua ;
-    color: aquamarine;
-    bottom: 0;
+footer{
+    background-color: aqua;
+    color: blueviolet;
+    bottom: 0%;
     position: fixed;
-    width: 100%;
+    width: 100;
     height: 2rem;
 }
 
