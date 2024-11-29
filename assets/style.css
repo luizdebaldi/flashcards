@@ -1,9 +1,18 @@
-body  {
+#container{
+    display: flex;
+}
+
+.catao {
+margem:1rem 1rem;
+background-color: bluevioletf;
+}
+body{
     background-color: rgba(21, 255, 0, 0.486);
     font-family: Noto Sans Japonês;
 }
 
-footer{
+
+footer
     background-color: aqua ;
     color: aquamarine;
     bottom: 0;
